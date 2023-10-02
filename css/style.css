@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://lh3.googleusercontent.com/pw/ADCreHe1NXcW1id6DQbm-TFTNOm8UJzIQA9hArQbYtJ5irQK-wkFunePNSMZPyiyojNH_n_OKLi98HYC8BT6nHB76N6Unv7les2FGAViGDFjJcO_LUEag1sf5iL4XvPqu28PWaZabsBtQXx3u13WfJDFDs0DG7B4R9XOJa8pC0Kdirckc6hJg9-aif_wVC4-dlpRzm37-hRMfgxDy9UyFdBLLWB_LuE6cBpU0rXnHWJPGsnqBCJjh0UH7eYHVhHbFNcDPPTUxGloCE5hSRW4HoLK0V2yWaE-sddpV-bqlqIxJNXfupr0FiBvpinMR-g4GK3n9hW-n-9BTEpmgtui_jK-TYPo7MzEUU60_BbdHgeSj4Rmb5nhedpvfA6MWosg_xO-Ola0gGfdwmmy3wT5h_LAwfFy4jP4dSgXmoSqQS1-rtsBaCtN4R-nVBDA4Qpf-doEoPx_-GIYrDUCptuoTjDc0sH2ACK2yi72rZKp9_TqRs5hkQUJhO-8HxtXGO5_LJPMYsUBot280RtC2J_HLk43oW7Uk_SuARirKYAuJz9yCWXjFogl4e6ZmxfYJnvE2AIk42LkqhfX1UjokOqMeDV7PXUC7ixVuJ18NzIKxIpYSAk9GnBVfa9szMpDmYJpslX5rMYCeygAYObGY0f4F8blWzVYPgWe6wvEyJdiwsMkEXj7przzoE-Xy29j-ARIq6S4OHPnDmW9oXV6nVxxDryVF4ZuDmoH49NoN-_1VPCsplPvgU8MIc9qwmCksslImnFGfHpO99txO125fnvfiHMIzMA7DYCWWPPSMAKb7cYrE3uOem7OiBOtAJiBlqVmKxc6zb4X4f0gl7qujQI-vqhpD-6EGn6_GEex9arnvrMVJZCKKd0J6uXDiWFJ_0gYnbmBynsxycuVJz5e155RD0Gl8FgUbIGAxenbbQ2l3DAnRhFKtctIr4GKkFJBzQ=w720-h480-s-no?authuser=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Container{
+    background: rgb(177, 166, 166);
+    margin-right: 55%;
+    margin-top: 10%;
+    margin-left: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.Panel{
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    text-align: end;
+    align-items: center;
+    background: #ef5f69;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.Panel img{
+    height: 105px;
+    border-radius: 100px;
+    margin-left: 80px;
+    border-style: solid;
+}
+.Panel2{
+    padding: 10px;
+}
+.Panel3, h4{
+    padding: 10px
+}
+h4{
+    padding: 10px;
+}
+.Panel2,.Panel3, h4, .button{
+   background: #fff;
+}
+.button{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px;
+}
+.button a{
+    background: #ef5f69;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    margin: 7px;
+    border-radius: 10px;
+    transition:  0.5s;
+}
+.button a:hover{
+    background: #e31d1d;
+    padding: 11px;
+}
